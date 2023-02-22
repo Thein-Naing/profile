@@ -7,12 +7,14 @@ body {
   line-height: 1.6;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+  text-align: center;
 }
 
 #name {
   margin-left: 30px;
   font-size: 18px;
   text-decoration: none;
+  border-radius: 20px;
 }
 
 a {
@@ -27,6 +29,7 @@ a:hover {
 .container {
   width: 500px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .card {
@@ -34,6 +37,8 @@ a:hover {
   background: white;
   padding: 30px;
   border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 960px) {
